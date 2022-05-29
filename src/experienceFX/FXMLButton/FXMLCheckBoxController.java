@@ -13,8 +13,8 @@ public class FXMLCheckBoxController {
 
 	@FXML
 	void capturarValores() {
-      System.out.println(cdJava.selectedProperty());
-      System.out.println(cdSwift.selectedProperty());
+      System.out.println(cdJava.selectedProperty().getValue());
+      System.out.println(cdSwift.selectedProperty().getValue());
 	}
 
 }
