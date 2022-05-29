@@ -7,16 +7,20 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 
 public class FXMLButtonController implements Initializable{
 
 	@FXML
 	private Label labelOlaMundo;
 	
+    @FXML
+    private TextField txtNome;
+	
 	@FXML
 	private void acaoDoButton(ActionEvent event) {
 		System.out.println("Ola eu fui clicado");
-		labelOlaMundo.setText("Ola mundo");
+		labelOlaMundo.setText("Ola mundo : "+ txtNome.getText());
 	}
 	
 
