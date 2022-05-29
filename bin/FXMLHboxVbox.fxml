@@ -2,7 +2,7 @@
 
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="experienceFX.FXMLButton.FXMLHboxVboxController">
+
+<AnchorPane minHeight="300.0" minWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="experienceFX.FXMLButton.FXMLHboxVboxController">
 	<!-- TODO Add Nodes -->
 </AnchorPane>
-
