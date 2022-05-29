@@ -22,7 +22,7 @@ public class FXMLComboBoxController implements Initializable {
 	private ObservableList<Categoria> obserCategoria;
 
 	@Override
-	public void initialize(URL arg0, ResourceBundle arg1) {
+	public void initialize(URL arg0, ResourceBundle rb) {
         readCategory();
 	}
 	
@@ -44,7 +44,7 @@ public class FXMLComboBoxController implements Initializable {
 		categoria.add(c2);
 		categoria.add(c3);
 		
-		obserCategoria = FXCollections.observableArrayList(c1,c2,c3);
+		obserCategoria = FXCollections.observableArrayList(categoria);
 		
 		cbCategoria.setItems(obserCategoria);
 		
