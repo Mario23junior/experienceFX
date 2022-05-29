@@ -4,11 +4,12 @@
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane minHeight="400.0" minWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="experienceFX.FXMLButton.FXMLCheckBoxController">
+<AnchorPane minHeight="400.0" minWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="experienceFX.FXMLButton.FXMLCheckBoxController">
    <children>
-      <CheckBox fx:id="cdSwift" layoutX="226.0" layoutY="111.0" mnemonicParsing="false" text="Swift" />
-      <CheckBox fx:id="cdJava" layoutX="226.0" layoutY="173.0" mnemonicParsing="false" text="Java" />
+      <CheckBox fx:id="cdSwift" layoutX="181.0" layoutY="111.0" mnemonicParsing="false" text="Swift" />
+      <CheckBox fx:id="cdJava" layoutX="181.0" layoutY="173.0" mnemonicParsing="false" text="Java" />
       <Button layoutX="196.0" layoutY="229.0" mnemonicParsing="false" onAction="#capturarValores" prefHeight="24.0" prefWidth="117.0" text="Pagar" />
+      <CheckBox fx:id="cdC" layoutX="320.0" layoutY="111.0" mnemonicParsing="false" text="C" />
+      <CheckBox fx:id="cdPlusPlus" layoutX="320.0" layoutY="182.0" mnemonicParsing="false" text="C++" />
    </children>
 </AnchorPane>
