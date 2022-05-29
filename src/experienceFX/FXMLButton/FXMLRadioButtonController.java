@@ -1,18 +1,20 @@
 package experienceFX.FXMLButton;
 
-import java.net.URL;
-import java.util.ResourceBundle;
+import javafx.fxml.FXML;
+import javafx.scene.control.RadioButton;
+import javafx.scene.control.ToggleGroup;
 
-import javafx.fxml.Initializable;
+public class FXMLRadioButtonController {
 
-public class FXMLRadioButtonController implements Initializable{
+	@FXML
+	private ToggleGroup grupo;
 
-	@Override
-	public void initialize(URL arg0, ResourceBundle arg1) {
-		// TODO Auto-generated method stub
+	@FXML
+	void capturarSelect() {
+      
+		RadioButton radio = (RadioButton)grupo.getSelectedToggle();
+		System.out.println(radio.getText());
 		
 	}
-
-	
 
 }
