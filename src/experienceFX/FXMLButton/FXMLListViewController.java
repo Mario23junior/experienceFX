@@ -27,6 +27,7 @@ public class FXMLListViewController implements Initializable {
 	}
 	
 	public void carregarCategorias() {
+	
 		
 		Categoria c1 = new Categoria();
 		c1.setId(1);
