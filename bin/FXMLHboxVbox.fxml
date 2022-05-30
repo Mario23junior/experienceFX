@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
 
 
-<AnchorPane minHeight="300.0" minWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="experienceFX.FXMLButton.FXMLHboxVboxController">
-	<!-- TODO Add Nodes -->
+<AnchorPane minHeight="397.0" minWidth="531.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="experienceFX.FXMLButton.FXMLHboxVboxController">
+   <children>
+      <HBox layoutY="8.0" prefHeight="100.0" prefWidth="531.0">
+         <children>
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+         </children>
+      </HBox>
+      <VBox layoutX="5.0" layoutY="190.0" prefHeight="200.0" prefWidth="522.0">
+         <children>
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+         </children>
+      </VBox>
+   </children>
 </AnchorPane>
