@@ -41,9 +41,15 @@ public class FXMLListViewController implements Initializable {
 		c3.setId(3);
 		c3.setNome("Fritas");
 		
+		Categoria c4 = new Categoria();
+		c4.setId(4);
+		c4.setNome("Molho");
+		
 		categorias.add(c1);
 		categorias.add(c2);
 		categorias.add(c3);
+		categorias.add(c4);
+
 
 		obsCategorias = FXCollections.observableArrayList(categorias);
 		
